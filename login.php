@@ -23,14 +23,14 @@
 		<div id="mainContent">
 		
 			<div id="loginForm">
-				<form id="StaffLogin" method="post" action="loginBackEnd.php" autofocus autocomplete="off"><!-- autofocus & autocomplete don't look like they are working atm but they should work with a server-->
+				<form id="StaffLogin" method="post" action="loginBackEnd.php" autofocus autocomplete="off">
 				   <span>Username:&nbsp;&nbsp;&nbsp;</span><br>
 				  <input type="text" name="username"><br>
 				   <span>Password:&nbsp;&nbsp;&nbsp;</span><br>
 				  <input type="password" name="pass"><br>
-				  <input id="LoginBtn" type="submit" value="Login"> <!--form should direct successful login to kitchen.php-->
+				  <input id="LoginBtn" type="submit" value="Login"><!--form should direct successful login to kitchen.php-->
 				</form><!-- End of staffLogin -->
-			</div><!-- End of loginForm -->
+			</div><!-- End of loginForm div -->
 			
 		</div><!-- End of mainContent div -->
 		

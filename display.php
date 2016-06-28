@@ -17,7 +17,7 @@
 			
 			<div id="OrderServing">
 			<!--script for orders appearing here-->
-			</div> <!-- End of OrderServing -->
+			</div> <!-- End of OrderServing div -->
 		</div><!-- End of mainContent div -->
 		
 		<footer>
