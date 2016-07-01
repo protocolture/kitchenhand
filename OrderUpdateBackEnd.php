@@ -31,12 +31,12 @@
 <?php
 
 //connect to server 
-include connection.php;
+include "connection.php";
 
 // get order number from input
 $OrderToBeUpdate = $_POST["orderNum"];
 
-$UpdateQuery = mysqli_query($conn, "INSERT INTO orders (orderNum, orderReady) VALUES ('"$OrderToBeUpdate"', '1')");
+$UpdateQuery = mysqli_query($conn, "INSERT INTO orders (orderNum, orderReady) VALUES ('$OrderToBeUpdate', '1')");
 // 1 in orderReady = order is ready and displaying 
 	//(display.php script: if orderReady == 1; echo"code to display order"; else echo "";)
 //Should we have remove form for when the order is taken for behind the bar?
