@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>Order Updated</title>
-<link rel="stylesheet" type="text/css" href="default.css">
+<link rel="stylesheet" type="text/css" href="css/default.css">
 </head>
 
 <body>
