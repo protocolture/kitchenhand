@@ -1,0 +1,63 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#welcome h1{
+	text-align:center;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f1d3e;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+    background-color: #1e3a7b;
+}
+/*  END OF INDEX AND ALL PAGES  */
+
+/*  DISPLAY PAGE CSS  */
+#display {
+	background-color:#0f1d3e;
+}
+
+#display h1{
+	color: white;
+}
+
+#nowServing{
+	background-color:#1e3a7b;
+	padding: 5px 20px;
+}
+
+#OrderServing{
+	padding-top: 2%;
+	padding-left:20px;
+}
+
+.order{
+	font-size: 8em;
+	text-align:center;
+	color:white;
+	width: 20%;
+	padding: 5px 20px;
+	border: white solid 4px;
+	border-radius: 5px;
+	background-color: #1e3a7b;
+}

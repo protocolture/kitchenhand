@@ -1,12 +1,10 @@
-<!--Session check php code here-->
-
 <!DOCTYPE html>
 <html>
 <head>
 <title>Index</title>
-<link rel="stylesheet" type="text/css" href="default.css">
+<link rel="stylesheet" type="text/css" href="css/default.css">
 </head>
-
+<!--Session check php code here-->
 <body>
 	<div id="wrapper">
 		<header>
@@ -20,6 +18,12 @@
 					<li><a href="kitchen.php">Order Update</a></li>
 				</ul>
 			</div><!-- End of menu div -->
+			
+			<div id="welcome">
+			<h1>
+			Welcome to Kitchenhand!
+			</h1>
+			</div><!-- End of welcome -->
 		</div><!-- End of mainContent div -->
 		
 		<footer>
