@@ -20,7 +20,7 @@ body {
 
 #menu li a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
@@ -32,13 +32,14 @@ body {
 }
 /*  END OF INDEX AND ALL PAGES  */
 
+
 /*  DISPLAY PAGE CSS  */
 #display {
 	background-color:#0f1d3e;
 }
 
 #display h1{
-	color: white;
+	color: #ffffff;
 }
 
 #nowServing{
@@ -51,13 +52,38 @@ body {
 	padding-left:20px;
 }
 
+
+
 .order{
 	font-size: 8em;
 	text-align:center;
-	color:white;
+	color:#ffffff;
 	width: 20%;
 	padding: 5px 20px;
-	border: white solid 4px;
+	border: #ffffff solid 5px;
 	border-radius: 5px;
 	background-color: #1e3a7b;
+    -webkit-animation-name: orderOrangeFlash; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+    animation-name: orderOrangeFlash;
+    animation-duration: 12s;
+    animation-delay: 1s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes orderOrangeFlash {
+    0%   {background-color: #1e3a7b; color: #ffffff;}
+    25%  {background-color: #ff9900; color: #000;}
+    50%  {background-color: #1e3a7b; color: #ffffff;}
+    75%  {background-color: #ff9900; color: #000;}
+    100% {background-color: #1e3a7b; color: #ffffff;}
+	}
+
+/* Standard syntax */
+@keyframes orderOrangeFlash {
+    0%   {background-color: #1e3a7b; color: #ffffff;}
+    25%  {background-color: #ff9900; color: #000;}
+    50%  {background-color: #1e3a7b; color: #ffffff;}
+    75%  {background-color: #ff9900; color: #000;}
+    100% {background-color: #1e3a7b; color: #ffffff;}
 }
