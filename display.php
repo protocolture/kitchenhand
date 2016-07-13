@@ -19,14 +19,17 @@
 				<!-- script for orders appearing here -->
 				<?php
 				include "connection.php";
-
+				
 				$orderFromDB = mysqli_query($conn, "SELECT orderNum FROM orders");
-				if (mysqli_num_rows ($orderFromDB) > 0)
+				
+				$fetchedNum = mysqli_fetch_row($orderFromDB);
+				
+				foreach ($orderFromDB)
 				{
-					
-					$fetchedNum = mysqli_fetch_row($orderFromDB);
-					
-					echo <div class= order orderText><span>$fetchedNum</span></div>
+					if (mysqli_num_rows ($orderFromDB) > 0)
+					{
+						echo <div class = order orderText><span>$fetchedNum</span></div>;
+					}
 				}
 				?>
 
