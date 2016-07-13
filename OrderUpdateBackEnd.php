@@ -1,4 +1,3 @@
-<!-- kitchen-end message showing what is shown on display.php -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +16,7 @@
 		</header><!-- End of header -->
 		
 		<div id="mainContent">
-		<!-- script to show  -->
+		<!-- script to show kitchen-end what is shown on display.php -->
 		</div><!-- End of mainContent div -->
 		
 		<footer>
@@ -47,22 +46,6 @@ $UpdateQuery = mysqli_query($conn, "INSERT INTO orders (orderNum, orderReady) VA
 //check it is properly inserted into the correct row
 //Display info that was inserted for user to check it is correct
 
-//Close connection
- $conn->close();
-
-
-
-
-
-
-
-/* 
-This function will filter out letters out - helpful for if orders are just numbers:
-
-if (filter_var($_POST["orderNum"], FILTER_VALIDATE_INT) === 0 || !filter_var($_POST["orderNum"], FILTER_VALIDATE_INT) === false) {
-    echo(" ");
-} else {
-    echo("</br>Please enter only numbers</br>");
-*/
-
+//connection closed
+$conn->close();
 ?>
